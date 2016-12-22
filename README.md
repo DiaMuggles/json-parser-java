@@ -11,10 +11,15 @@ Terminals - string_val
 Non-Terminals - JsonObject,JsonArray,JsonValue,Pair,LastPair,Key,LastValue
 
 JsonObject -> {} | { PairLastPair }
+
 Pair -> string_val:JsonValue
+
 LastPair -> NULL | ,PairLastPair
+
 JsonArray -> [] | [JsonValueLastValue]
+
 LastValue -> NULL | ;JsonValueLastValue
+
 JsonValue -> string_val | JsonObject | JsonArray
 
 
