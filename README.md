@@ -9,7 +9,7 @@ There are already very efficient and useful libraries for parsing Json data. The
 
 Terminals - string_val
 
-Non-Terminals - JsonObject,JsonArray,JsonValue,Pair,LastPair,Key,LastValue
+Non-Terminals - JsonObject, JsonArray, JsonValue, Pair, LastPair, LastValue
 
 JsonObject -> {} | { PairLastPair }
 
