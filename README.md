@@ -3,7 +3,7 @@
 An LL(1) predictive parser for parsing JsonObjects and JsonArrays using Recursive Descendent Parsing(RDP) technique.
 
 ## Motivation
-There are already very efficient and useful libraries for parsing Json data. Efficiency or ability to parse very large inputs is not intented here. The main aim of this project is to demonstrate the working of RDP technique by designing a parser for raw json data.
+There are already very efficient and useful libraries for parsing Json data. The main aim of this project is to demonstrate the working of RDP technique by designing a parser for raw json data.
 
 
 ## Parser Grammar
